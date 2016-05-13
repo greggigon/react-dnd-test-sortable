@@ -62,7 +62,7 @@ const cardTarget = {
     // Generally it's better to avoid mutations,
     // but it's good here for the sake of performance
     // to avoid expensive index searches.
-    monitor.getItem().setIndex(hoverIndex);
+    monitor.getItem().index = hoverIndex;
   }
 };
 
